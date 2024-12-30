@@ -1,13 +1,10 @@
 package com.thetestinggeeks.ex02_SeleniumTest;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
-import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
-public class Test_Selenium02 {
+public class Test_Selenium03 {
     @Test
     public void test_SeleniumTc2() {
 
