@@ -15,6 +15,7 @@ public class Test_Selenium02 {
     WebDriver driver = new FirefoxDriver();
 
     driver.navigate().to("https://www.lat.london/");
+    driver.manage().window().maximize();
     //driver.findElement(ByXPath, "//a[@class='btn btn-orange nav-enquire-btn font-weight-bold']").click();
 
 
