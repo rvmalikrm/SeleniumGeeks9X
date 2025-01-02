@@ -13,7 +13,9 @@ public class Test_Selenium17 {
     @Test
     public void test_Selenium17(){
         EdgeOptions options=new EdgeOptions();
-        options.addArguments("start-maximized");
+        //options.addArguments("start-maximized");
+        //options.addArguments("headless");
+
 
 
         WebDriver driver =new EdgeDriver(options);
