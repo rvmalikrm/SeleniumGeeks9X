@@ -5,15 +5,16 @@ import org.testng.annotations.Test;
 
 public class Test_DataDrivenTesting {
 
-    @DataProvider
+    @DataProvider(name="LoginData",parallel = true)
     public Object[][] getData(){
         return new Object[][]{
                 new Object[] {"admin@gamil.com", "pass123"},
-                new Object[] {"admin123@gamil.com", "pass123"}
+                new Object[] {"admin123@gamil.com", "pass123"},
+                new Object[] {"admin1221@gmail.com", "password1221"}
         };
     }
 
-    @Test(dataProvider = "getData")
+    @Test(dataProvider = "LoginData")
     public void loginTest(String email, String password){
         System.out.println(email + " | "+ password);
 
