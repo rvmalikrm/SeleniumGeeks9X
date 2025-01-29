@@ -8,8 +8,9 @@ public class DataDrivenExcel {
 
 
 
-    @Test(dataProvider = "LoginData", dataProviderClass = "UtilExcel")
-    public void test_VWOLogin(String email, String password){
+//    @Test(dataProvider = "LoginData", dataProviderClass = "UtilExcel")
+//    public void test_VWOLogin(String email, String password)
+    {
 
     }
 
